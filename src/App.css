@@ -10,6 +10,7 @@ body {
 
 .main-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: url('./assets/car.jpg');
@@ -93,4 +94,15 @@ body {
   padding: 8px;
   text-align: center;
   background-color: #edeeed;
+}
+
+.map {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.map > iframe {
+  width: 100%;
 }
