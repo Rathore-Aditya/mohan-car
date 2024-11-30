@@ -1,5 +1,5 @@
 import './App.css';
-import whatsapp from './assets/WhatsApp.webp';
+import whatsapp from './assets/WhatsApp.svg';
 import car from './assets/min_car.png';
 import { message, WHATSAPP_LINK } from './utls/utils';
 
