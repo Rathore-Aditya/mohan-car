@@ -1,5 +1,5 @@
 import './App.css';
-import whatsapp from './assets/WhatsApp.webp';
+// import whatsapp from './assets/WhatsApp.webp';
 import car from './assets/min_car.png';
 import { message, WHATSAPP_LINK } from './utls/utils';
 
@@ -23,7 +23,7 @@ const App = () => {
         </div>
 
         <div className='contact-me' onClick={handleWhatsappClick}>
-          <img src={whatsapp} alt='whatsapp' />
+          {/* <img src={whatsapp} alt='whatsapp' /> */}
         </div>
 
         <div className='contact-support'>
